@@ -1,0 +1,18 @@
+.all {
+    background-color: black;
+    background-image: url('liron.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 340px;
+    background-position: left;
+
+}
+
+.coming_soon {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 333px;
+    font-family: Tahoma;
+    font-size: 30px;
+}
