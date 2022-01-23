@@ -81,13 +81,22 @@ function draw() {
 
 
 	//hours = rounds
-	fill(151, 61, 158);
-	rect(400, 100, 150, 100);
+	fill(243, 104, 243);
+	rect(230, 100, 150, 100);
+
+	fill(242, 183, 242);
+	rect(230, 150, 150, 50);
+
+	fill(243, 104, 243);
+	rect(230, 150, 5, 50);
+	rect(375, 150, 5, 50);
+	rect(230, 195, 150, 5);
 
 	fill(255);
-	textSize(24)
-	text("ROUND:" , 430, 140);
-	text(" #" + hour(), 450, 180)
+	textSize(32)
+	text("ROUND", 253, 140);
+	textSize(33)
+	text(" #" + hour(), 265, 185)
 
 }
 
